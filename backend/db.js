@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
 
-const mongoURI="mongodb+srv://sarkarhriday:9734315824@cluster0.eoghcso.mongodb.net/mernfood?retryWrites=true&w=majority&appName=AtlasApp"
 
 const mongoDB=async()=>{
     await mongoose.connect(mongoURI,{useNewUrlParser:true,useUnifiedTopology:true})
